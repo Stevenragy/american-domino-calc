@@ -1,8 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "vampire";
+    src: local("vampire"), url("./fonts/VampireWars.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "vampire-italic";
+    src: local("vampire-italic"), url("./fonts/VampireWarsItalic.ttf") format("truetype");
+    font-weight: bold;
+}
+
 :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: vampire;
     line-height: 1.5;
     font-weight: 400;
 

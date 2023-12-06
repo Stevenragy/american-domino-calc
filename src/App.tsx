@@ -1,7 +1,14 @@
 import "./App.css";
+import { Header } from "./components/header/Header";
+import { PlayersList } from "./components/players-list/PlayersList";
 
 function App() {
-    return <h1>Hello</h1>;
+    return (
+        <>
+            <Header />
+            <PlayersList />
+        </>
+    );
 }
 
 export default App;
